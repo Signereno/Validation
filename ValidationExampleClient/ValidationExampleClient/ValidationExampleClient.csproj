@@ -33,11 +33,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="IdentiSign.Validation.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IdentiSign.Validation.Client.1.0.0.8\lib\net45\IdentiSign.Validation.Client.dll</HintPath>
+      <HintPath>..\packages\IdentiSign.Validation.Client.1.0.0.13\lib\net45\IdentiSign.Validation.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="IdentiSign.Validation.Models, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IdentiSign.Validation.Models.1.0.0.8\lib\net45\IdentiSign.Validation.Models.dll</HintPath>
+      <HintPath>..\packages\IdentiSign.Validation.Models.1.0.0.13\lib\net45\IdentiSign.Validation.Models.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

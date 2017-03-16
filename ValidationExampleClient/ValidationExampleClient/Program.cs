@@ -46,6 +46,7 @@ namespace ValidationExampleClient
             var request = new ValidateSDORequest()
             {
                 sdoData = Convert.ToBase64String(fileData),
+                ExternalReference = "Some reference",
                 dataToValidate = Convert.ToBase64String(originalText) //Optional
             };
             
@@ -62,7 +63,8 @@ namespace ValidationExampleClient
 
             var parseRequest = new ParseSDORequest()
             {
-                sdo = Convert.ToBase64String(fileData)
+                sdoData = Convert.ToBase64String(fileData),
+                ExternalReference = "Some reference"
             };
 
             var parseResult = noClient.ValidateAndParseSdo(parseRequest, isProd: false);
