@@ -11,6 +11,7 @@ using System;
 using System.IO;
 using IdentiSign.Validation.Client;
 using IdentiSign.Validation.Client.ValidationClient.NO;
+using IdentiSign.Validation.Models.Constants;
 using IdentiSign.Validation.Models.NO.BankID;
 
 namespace ValidationExampleClient
@@ -64,7 +65,7 @@ namespace ValidationExampleClient
             var parseRequest = new ParseSDORequest()
             {
                 sdoData = Convert.ToBase64String(fileData),
-                ExternalReference = "Some reference"
+                ExternalReference = "Some reference",
             };
 
             var parseResult = noClient.ValidateAndParseSdo(parseRequest, isProd: false);
