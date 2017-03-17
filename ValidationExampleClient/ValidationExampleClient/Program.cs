@@ -20,7 +20,7 @@ namespace ValidationExampleClient
     {
         static void Main(string[] args)
         {
-            //If you have an account insert your credentials here, you can do up to 10 requests per day without an account
+            //If you have an account insert your credentials here, you can do up to 5 requests per day without an account
             Guid? accountId = null;
             string oauthClientId = null;
             string oauthSecret = null;
